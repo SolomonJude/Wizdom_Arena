@@ -1,0 +1,87 @@
+/* media query 1170px */
+@media(max-width:1170px){
+    /* navbar css */
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* media query 991px */
+@media (max-width:991px){
+    /* General CSS */
+    .about .banner_section,
+    .FAQs .banner_section,
+    .contact .banner_section{
+        padding-top: 12rem;
+        padding-bottom: 3rem;
+    }
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+    .header.navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 2.1875rem;
+    }
+    h2{
+        font-size: 1.375rem;
+    }
+    .wrapper{
+        padding-top: 4.25rem;
+        padding-bottom: 3.25rem;
+    }
+
+    /* About Page video section */
+    .videoGallery .containerG{
+        grid-template-columns: 1.5fr 1fr;
+        padding: 0.7rem;
+    }
+
+}
+
+/* media query 767px */
+@media(max-width:767px){
+    /* General CSS */
+    body, html{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 1.875rem;
+    }
+
+    /* Banner section */
+    .banner_section{
+        min-height: 75vh;
+    }
+    .banner_section .carousel-item{
+        height: 75vh;
+    }
+    
+    /* story section */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+  
+}
+
+/* media query 590px */
+@media (max-width: 590px){
+    /* General CSS */
+    body, html{
+        font-size: 7px;
+    }
+    .footer{
+        padding-top: 10rem;
+    }
+}
